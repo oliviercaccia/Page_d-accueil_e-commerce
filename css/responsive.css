@@ -1,0 +1,113 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    body,
+    html {
+        width: 100%;
+    }
+
+    /* ******DISPLAY NONE******** */
+
+    .ancre,
+    .bottom-nav,
+    .nav-icon,
+    .nav-links {
+        display: none;
+    }
+    /* ******FLEX DIRECTION******** */
+    .categorie,
+    .footer,
+    .produits {
+        flex-direction: column;
+    }
+    /******NAV******** */
+    .menu-mobile {
+        display: block;
+        color: grey;
+        font-size: 50px;
+        padding-right: 5%;
+    }
+
+    /* *******FOOTER******** */
+
+    .news-letter {
+        margin: 20px 0;
+        width: 100%;
+    }
+    footer .p-center {
+        text-align: center;
+    }
+
+    .btnNewsLetters {
+        font-size: 20px;
+        margin: 20px 0;
+        padding: 15px 50px;
+    }
+
+    .social-icon {
+        justify-content: space-around;
+        padding-left: 0;
+    }
+
+    /* *******HEADER******** */
+    header {
+        background-image: url("../images/hearder-mobile.jpg");
+        margin-bottom: 10px;
+        padding: 84px 0;
+    }
+
+    .btn-header {
+        margin-top: 10px;
+        width: 100%;
+    }
+    /* *******CATEGORIE******** */
+    /* *******PRODUIT******** */
+    .border-bottom,
+    .border-top {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .title-catégories,
+    .title-vente {
+        font-size: 2.5rem;
+    }
+
+    .btn-categorie,
+    .btn-produit {
+        margin-bottom: 10%;
+    }
+    .cate .btn-top {
+        bottom: -3%;
+        left: 5%;
+        position: absolute;
+        top: unset;
+        width: 90%;
+
+    }
+
+    /* *******PROMO******** */
+    .border-promo {
+        margin-bottom: 10%;
+        margin-top: 0;
+    }
+    .promo-alignLeft {
+        left: 5%;
+        width: 66%;
+    }
+
+}
+
+   
+
+   
+
+ 
+
+  

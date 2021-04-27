@@ -1,0 +1,513 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+}
+
+.cate h3,
+body,
+p,
+ul {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Seaweed Script', cursive;
+    margin: 0;
+}
+
+h1 {
+    color: #36A533;
+    font-size: 4.3rem;
+    opacity: 0.6;
+    padding-top: 10%;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.cate h3,
+.nav-icon a,
+.nav-links a,
+p {
+    font-size: 22px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+.nav-links a:hover,
+.nav-icon a:hover {
+    color: #36A533;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------CONTAINER----------------- */
+.container {
+    margin: 0 auto;
+    width: 1140px;
+
+}
+
+/* --------------D-FLEX --------------------------- */
+.d-flex {
+    display: flex;
+}
+
+/* -------------TOP-NAV---------------- */
+.menu-mobile {
+    display: none;
+}
+
+.bottom-nav,
+.top-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.top-nav {
+    background-color: rgba(191, 206, 192, 80%);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo-links {
+    margin-left: 5%;
+    padding-top: 5px;
+    width: 25%;
+}
+
+.nav-links {
+    width: 50%;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.nav-icon {
+    justify-content: flex-end;
+    margin-right: 5%;
+    width: 25%;
+}
+
+.nav-links,
+.top-nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-links li:first-child {
+    border-bottom: 2px solid white;
+}
+
+.nav-icon a {
+    color: white;
+    padding-left: 20px;
+}
+
+/* ---------------BOTTOM-NAV------------------ */
+
+.bottom-nav {
+    background-color: #BFCEC0;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+/* *****************FOOTER********************** */
+footer {
+    background-color: #9DB59F;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+footer h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 22px;
+}
+
+.footer {
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.backgroundColor-footerTop {
+    background-color: #CEDBCF;
+}
+
+.news-letter {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.inputMailNewsLetters {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.btnNewsLetters {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+}
+
+.mail {
+    box-shadow: 0 0 0 3px white;
+    margin: 5%;
+    padding: 2%;
+    text-align: initial;
+}
+
+.footer-center a,
+.footer-top p {
+    font-size: 18px;
+}
+
+.footer-center {
+    font-size: 21px;
+    text-align: left;
+}
+
+.footer-center a {
+    color: black;
+}
+
+footer .p-center {
+    text-align: end;
+}
+
+.footer-bottom {
+    justify-content: center;
+}
+
+.social-icon {
+    justify-content: center;
+    width: 100%;
+}
+
+.social-icon a {
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10%;
+    padding-left: 25px;
+}
+
+.ancre {
+    bottom: 1%;
+    opacity: 0.5;
+    position: fixed;
+    right: 1%;
+    width: 3%;
+}
+
+/* ------------------------HEADER-------------------------- */
+header {
+    background-color: #CEDBCF;
+    background-image: url("../images/img-headerDesktop.jpg");
+    background-position: center 59%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 90px 0;
+}
+
+header p {
+    padding-bottom: 2%;
+}
+
+.p-header {
+    opacity: 50%;
+}
+
+.btn-header {
+    background-color: #BFCEC0;
+    box-shadow: 0 3px 7px #664637;
+    color: white;
+    display: inline-block;
+    padding: 9px;
+    text-align: center;
+}
+
+/* -------------------CATEGORIE-------------------- */
+.cate h3 {
+    bottom: -3%;
+    font-weight: inherit;
+    left: 5%;
+    position: absolute;
+    width: 90%;
+}
+
+.cate .btn-top {
+    bottom: unset;
+    left: 5%;
+    position: absolute;
+    top: -3%;
+    width: 90%;
+}
+
+.categorie,
+.produits {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorie,
+.produits {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/* ----------------BORDER------------------ */
+.border-bottom,
+.border-promo,
+.border-top {
+    border-top: 2px solid #BFCEC0;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.border-promo,
+.border-top {
+    margin-top: 50px;
+}
+
+.border-bottom,
+.border-promo {
+    margin-bottom: 50px;
+}
+
+/* ----------------TITLE TOP VENTE------------------ */
+.title-catégories,
+.title-vente {
+    color: #36A533;
+    text-align: center;
+    opacity: 50%;
+}
+
+/* --------------PRODUITS---------------------------- */
+.product h3 {
+    color: #664637;
+    font-size: 35px;
+}
+
+.single-categorie,
+.single-product {
+    position: relative;
+}
+
+.btn-categorie,
+.btn-produit {
+    background-color: white;
+    box-shadow: 0 3px 7px #664637;
+    color: #9DB59F;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* -----------------PROMOTION------------------------ */
+
+.promo {
+    border: 2px solid darkgray;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.img-promo {
+    animation: fondu 10s infinite;
+    background-color: #EDEDED;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 15px 10px -5px #777;
+    height: 509px;
+    width: 100%;
+}
+
+.promo-alignLeft {
+    align-items: flex-start;
+    /* display: flex; */
+    flex-direction: column;
+    left: 21%;
+    position: absolute;
+}
+
+.promo-alignLeft h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    padding-bottom: 44%;
+}
+
+.promo-alignLeft p {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btn-promo {
+    background-color: #9DB59F;
+    box-shadow: 0 3px 7px #664637;
+    color: white;
+    font-size: 2em;
+    margin-top: 35px;
+    padding: 1% 10%;
+    text-decoration: none;
+}
+
+/* ***************OVERLAY******************* */
+.overlay,
+.overlay-categorie {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 98.5%;
+    position: absolute;
+    width: 100%;
+}
+
+.single-categorie .overlay-categorie,
+.single-product .overlay {
+
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.single-categorie .overlay,
+.single-product .overlay {
+    align-items: center;
+}
+
+.categorie-image:hover .overlay-categorie,
+.product-image:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .fav-heart {
+    color: white;
+    font-size: 3rem;
+    transition: 0.5s;
+}
+
+.fav-heart:hover {
+    color: red;
+    font-size: 8rem;
+}
+
+.categorie-image,
+.product-image {
+    position: relative;
+    width: 100%;
+}
+
+/* -----------------ANIMATION------------------------ */
+
+.ancre,
+.fav-heart {
+    -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+@keyframes pulsate-bck {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.img-promo:hover {
+    animation-play-state: paused;
+}
+
+@keyframes fondu {
+    0% {
+        background-image: url("../images/img-promoPlants.png");
+    }
+
+    33.33% {
+        background-image: url("../images/img-promoPiggyBank.jpg");
+    }
+
+    66.67% {
+        background-image: url("../images/img-promoHandDirection.jpg");
+    }
+
+    100% {
+        background-image: url("../images/img-promoPlants.png");
+    }
+}
+
+.rotate-scale-up:hover {
+    animation: rotate-scale-up 0.65s linear both;
+}
+
+@keyframes rotate-scale-up {
+    0% {
+
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+
+        transform: scale(2) rotateZ(180deg);
+    }
+
+    100% {
+
+        transform: scale(1) rotateZ(360deg);
+    }
+}
